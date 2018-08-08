@@ -47,6 +47,7 @@ public class Dog {
 	public void eat(){
 		hungry--;
 		energy++;
+		bark();
 	}
 	
 	private void  bark(){
